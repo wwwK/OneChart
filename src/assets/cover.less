@@ -1,0 +1,42 @@
+.amenu {
+	.el-menu {
+		border: none;
+		background-color: transparent;
+
+		.el-menu--inline {
+			background-color: rgba(214, 214, 214, 0.1);
+		}
+
+		.el-submenu__title {
+			height: @menuitem-height;
+			line-height: @menuitem-height;
+			font-size: 16px;
+
+			&:hover {
+				color: #fff;
+				background-color: rgba(255, 255, 255, 0.2);
+			}
+		}
+
+		.el-menu-item-group__title {
+			padding: 0;
+			padding-left: 20px;
+		}
+
+		.el-menu-item {
+			text-align: left;
+			font-size: 14px;
+			height: @menuitem-height;
+			line-height: @menuitem-height;
+
+			&:focus,
+			&:hover {
+				background-color: rgba(255, 255, 255, 0.2);
+			}
+
+			&:hover {
+				color: #fff !important;
+			}
+		}
+	}
+}
