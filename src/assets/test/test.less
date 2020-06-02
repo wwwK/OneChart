@@ -1,0 +1,11 @@
+.flex-box {
+	& + & {
+		background: red;
+		border: 1px solid blue;
+		margin-left: 0;
+	}
+
+	& ~ & {
+		color: red;
+	}
+}
